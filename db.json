@@ -1,0 +1,145 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Scoreboard",
+      "colorClass": "color-scoreboard"
+    },
+    {
+      "id": 2,
+      "projectName": "Flight Booking",
+      "colorClass": "color-flight"
+    },
+    {
+      "id": 3,
+      "projectName": "Product Cart",
+      "colorClass": "color-productCart"
+    },
+    {
+      "id": 4,
+      "projectName": "Book Store",
+      "colorClass": "color-bookstore"
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Application",
+      "colorClass": "color-blog"
+    },
+    {
+      "id": 6,
+      "projectName": "Job Finder",
+      "colorClass": "color-jobFinder"
+    }
+  ],
+  "team": [
+    {
+      "name": "Tanmoy Joy",
+      "avatar": "/images/avatars/tanmoy.jpg",
+      "id": 1
+    },
+    {
+      "name": "Saad Hasan",
+      "avatar": "/images/avatars/sadh.png",
+      "id": 2
+    },
+    {
+      "name": "Akash Ahmed",
+      "avatar": "/images/avatars/akash.png",
+      "id": 3
+    },
+    {
+      "name": "Md Salahuddin",
+      "avatar": "/images/avatars/salahuddin.png",
+      "id": 4
+    },
+    {
+      "name": "Riyadh Hassan",
+      "avatar": "/images/avatars/riyadh.png",
+      "id": 5
+    },
+    {
+      "name": "Ferdous Hassan",
+      "avatar": "/images/avatars/ferdous.png",
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "complete the frontend",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 5,
+        "projectName": "Blog Application",
+        "colorClass": "color-blog"
+      },
+      "deadline": "2023-05-22",
+      "id": 1
+    },
+    {
+      "taskName": "fix the login bugs in backend",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-05-23",
+      "id": 2,
+      "status": "completed"
+    },
+    {
+      "taskName": "complete google auth feature",
+      "teamMember": {
+        "name": "Tanmoy Joy",
+        "avatar": "/images/avatars/tanmoy.jpg",
+        "id": 1
+      },
+      "project": {
+        "id": 6,
+        "projectName": "Job Finder",
+        "colorClass": "color-jobFinder"
+      },
+      "deadline": "2023-05-29",
+      "id": 3,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "fix the navbar bug",
+      "teamMember": {
+        "name": "Riyadh Hassan",
+        "avatar": "/images/avatars/riyadh.png",
+        "id": 5
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-05-31",
+      "id": 4
+    },
+    {
+      "taskName": "complete the cart feature",
+      "teamMember": {
+        "name": "Tanmoy Joy",
+        "avatar": "/images/avatars/tanmoy.jpg",
+        "id": 1
+      },
+      "project": {
+        "id": 4,
+        "projectName": "Book Store",
+        "colorClass": "color-bookstore"
+      },
+      "deadline": "2023-06-02",
+      "id": 5
+    }
+  ]
+}
